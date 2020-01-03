@@ -1,0 +1,6 @@
+<h3>Cart </h3>
+<div class="cart-item" *ngFor="let wibble of items">
+  <span>{{ wibble.name }}</span>
+  <!-- <span>{{ wibble.description }}</span> -->
+  <span>{{ wibble.price | currency }}</span>
+</div>
